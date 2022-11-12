@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXURY DECORACIONES Y SORPRESAS</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__contenedor">
+            <div class="header__barra">
+                <a href="/">
+                    <img class="header__logo" src="img/logo luxury.png" alt="imagen logo">
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="index.html">Inicio</a>
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="blog.html">Blog</a>
+                    <a class="navegacion__enlace" href="Contactanos.html">Contactanos</a>
+                </nav>
+            </div>
+    </header>
+    <body>
+	<div class="container">
+		<div class="innerwrap">
+		
+			<section class="section1 clearfix">
+				<div class="textcenter">					
+					<h1>DONDE PUEDES ENCONTACTANOS</h1>
+				</div>
+			</section>
+		
+			<section class="section2 clearfix">
+				<div class="col2 column1 first">
+					<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                    <div class="sec2map" style='overflow:hidden;height:550px;width:100%;'>
+                        <div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small>
+                            <a href="http://embedgooglemaps.com">	
+                                embed google maps
+                            </a></small></div><div><small>
+                <a href="http://freedirectorysubmissionsites.com/">free web directories</a>
+            </small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+        </div>
+        <script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(3.8756618,-77.0582217),
+            mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), 
+            myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(3.8756618,-77.0582217)});infowindow = new google.maps.InfoWindow({content:'<strong>Mi Locacion</strong><br>Buenaventura<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+				</div>
+				<div class="col2 column2 last">
+					<div class="sec2innercont">
+						<div class="sec2addr">
+							<p><span class="collig">Telefono :</span> +57 316 414 3612</p>
+							<p><span class="collig">Gmail :</span> @LuxuryD_S</p>
+                            <p><span class="collig">Facebook :</span> @LuxuryD_S</p>
+						</div>
+					</div>
+					<div class="sec2contactform">
+						<h3 class="sec2frmtitle">¿Quieres saber más? Envíenos un correo</h3>
+						<form action="">
+							<div class="clearfix">
+								<input class="col2 first" type="text" placeholder="Nombre">
+								<input class="col2 last" type="text" placeholder="Apellido">
+							</div>
+							<div class="clearfix">
+								<input  class="col2 first" type="Email" placeholder="Gmail">
+								<input class="col2 last" type="text" placeholder="Telefono">
+							</div>
+							<div class="clearfix">
+								<textarea name="textarea" id="" cols="30" rows="7">Dejanos un mensaje...</textarea>
+							</div>
+							<div class="clearfix"><input type="submit" value="ENVIAR"></div>
+						</form>
+					</div>
+
+				</div>
+			</section>
+		
+		</div>
+	</div>
+</body>
+<footer class="footer">
+    <div class="footer__contenedor footer__contenido">
+        <nav class="footer__nav">
+            <a class="footer__enlace" href="index.html">Inicio</a>
+            <a class="footer__enlace" href="nosotros.html">Nosotros</a>
+            <a class="footer__enlace" href="blog.html">Blog</a>
+            <a class="footer__enlace" href="tienda.html">Tienda</a>
+        </nav>
+        <p class="footer__copyright">Todos los derechos reservados</p>
+    </div>
+</footer>
+
+</body>
+</html>
